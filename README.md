@@ -12,5 +12,9 @@ The added value comes from the READMEs, where I explain how each smart contract 
 
 This repository is a work in progress and subject to constant updates.
 
+The repository includes: 
+
+- SimpleStorage - a Smart contract deployed on ZkSync L2 Sepolia Testnet that helps us to store a name of a person and his or her favorite number.  
+
 Wishing you a great day,
 LebsLabs
