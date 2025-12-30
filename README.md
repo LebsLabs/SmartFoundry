@@ -15,9 +15,11 @@ This repository is a work in progress and subject to constant updates.
 The repository includes: 
 
 - SimpleStorage - a Smart contract deployed on ZkSync L2 Sepolia Testnet that helps us to store a name of a person and his or her favorite number.
+  //add etherscan, add ZkSync links
 
 - FundMe - a smart contract that accepts() and sends() funds. The contract helps to understand how the smart contracts are reading(import) data from other SmartContracts, in this case: chainlink feeds(ETH/USD converter).
           Within this Smart Contract is also possibe to read simple Smart contract mathematics where we learn to convert Eth, Gwei & Wei using 'Scentific notations' or 'literals' for very long number e.g. 1e18. 
+  //add feeds fro chain.link
 
 Wishing you a great day,
 LebsLabs
