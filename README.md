@@ -28,6 +28,6 @@ A crowdfunding-style contract that allows users to fund and withdraw ETH. Great 
 - 🔗 Chainlink ETH/USD Price Feed on Sepolia
 
 More contracts and detailed explanations coming soon!
-Wishing you a great day, 
-LebsLabs
+  Wishing you a great day, 
+    LebsLabs
 
