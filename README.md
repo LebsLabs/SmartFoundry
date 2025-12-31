@@ -1,25 +1,31 @@
 SmartFoundry
 
-Where smart contracts are “crafted”
+Where smart contracts are “crafted” 🚀
 
-Hello World!
+Hello World! 👋
+This repository hosts my personal Smart Contracts written in Solidity — a language I've grown to love.
+The contracts are primarily inspired by Patrick Collins' excellent YouTube tutorials and serve as hands-on practice for learning key concepts like bridging, deployment, and general Solidity development. Similar code examples can be found across the web, so the main focus here is learning and experimentation.
 
-This repository hosts my Smart Contracts, written in Solidity, a language I’ve grown fond of.
+What makes this repo special?
+The real value lies in the detailed READMEs for each contract, where I break down:
+- How the smart contract works under the hood
+- The tools, plugins, hot wallets, and resources used during development
+- Step-by-step deployment instructions and insights
+This repository is a work in progress and will be updated regularly as I continue learning.
 
-The contracts are primarily based on Patrick Collins’ tutorials on YouTube and serve as practice for learning bridging, deployment, and general Solidity coding. Similar code can be found elsewhere on the web, so the focus here is more on learning and experimentation.
+Contracts Included:
 
-The added value comes from the READMEs, where I explain how each smart contract works, as well as the tools, plug-ins, hot wallets, and other resources used in the crafting process.
+SimpleStorage
+A basic smart contract deployed on the zkSync Era Sepolia Testnet. It allows storing a person's name and their favorite number.
+🔗 View on zkSync Block Explorer
+🔗 Verify on zkSync Etherscan equivalent
 
-This repository is a work in progress and subject to constant updates.
+FundMe
+A crowdfunding-style contract that allows users to fund and withdraw ETH. Great for understanding:
+How smart contracts import and read data from external contracts (in this case, Chainlink Price Feeds for ETH/USD conversion)
+Basic arithmetic in Solidity: converting between ETH, Gwei, and Wei using scientific notation literals (e.g., 1e18)
+🔗 Chainlink ETH/USD Price Feed on Sepolia
 
-The repository includes: 
-
-- SimpleStorage - a Smart contract deployed on ZkSync L2 Sepolia Testnet that helps us to store a name of a person and his or her favorite number.
-  //add etherscan, add ZkSync links
-
-- FundMe - a smart contract that accepts() and sends() funds. The contract helps to understand how the smart contracts are reading(import) data from other SmartContracts, in this case: chainlink feeds(ETH/USD converter).
-          Within this Smart Contract is also possibe to read simple Smart contract mathematics where we learn to convert Eth, Gwei & Wei using 'Scentific notations' or 'literals' for very long number e.g. 1e18. 
-  //add feeds fro chain.link
-
+More contracts and detailed explanations coming soon!
 Wishing you a great day,
-LebsLabs
+LebsLabs ✨
